@@ -15,16 +15,16 @@ while True:
 opcion = int(input("Ingresa el número de la operación a realizar: "))    
  
 if opcion == 1:
-    print("El resultado de la suma es de " ,n1,"+",n2," es igual a: " n1+n2) 
+    print("El resultado de la suma es de " ,n1,"+",n2," es igual a: ", n1+n2) 
 
 elif opcion == 2:
-    print("El resultado de la resta es de " ,n1,"-",n2," es igual a: " n1-n2) 
+    print("El resultado de la resta es de " ,n1,"-",n2," es igual a: ", n1-n2) 
 
 elif opcion == 3:
-    print("El resultado de la división es de " ,n1,"/",n2," es igual a: " n1/n2)
+    print("El resultado de la división es de " ,n1,"/",n2," es igual a: ",n1/n2)
 
 elif opcion == 1:
-    print("El resultado de la multiplicación es de " ,n1,"*",n2," es igual a: " n1*n2) 
+    print("El resultado de la multiplicación es de " ,n1,"*",n2," es igual a: ", n1*n2) 
 
 else:
     print("Opción incorrecta")
