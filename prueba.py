@@ -2,7 +2,8 @@ n1 = int(input("Ingresa un  número: "))
 n2 = int(input("Ingresa un  número: "))
 
 opcion = 0
-while True: 
+while True:
+    
     print("""
             Elige la operación que deseas realizar:
           
@@ -10,7 +11,7 @@ while True:
                 2) Resta
                 3) División
                 4) Multiplicación
-""")
+        """)
 
     opcion = int(input("Ingresa el número de la operación a realizar: "))    
  
